@@ -1,0 +1,143 @@
+body,h1,h2,h3,ul,ol,li {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font: inhert;
+  }
+  
+  ul,li,ol {
+    list-style:none;
+  }
+  img {
+    display: block;
+    border: 0;
+    margin: 0;
+  }
+  
+  body {
+    background:#c3c3c3;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    color: #000;
+    background: url(https://miao.su/images/2018/05/10/bg57247.jpg)no-repeat center center;
+    background-size: cover;
+  }
+  .wrapper{
+      padding:2px;
+  }
+  .header{
+    width: 30em;
+    float: left;
+}
+  h1 {
+    font-size: 1.8em;
+    margin:2rem;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    padding-bottom: 0.5rem;
+  }
+   
+  .header img {
+    width: 7em;
+    border-radius:50%;
+    margin-left: 150px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 70px 25px #fff;
+  }
+  .header ul {
+    margin-top: 100px;
+  }
+  .header ul li {
+    margin-left: 100px;
+    line-height: 2em;
+    letter-spacing:3px;
+  }
+  
+  .section {
+    margin: 200px 0 -60px 650px;
+    position: relative;
+    max-width: 600px;
+    line-height: 2rem;
+}
+
+.section h2 {
+    font-size: 1.4em;
+    position: absolute;
+    /* animation:changehovertree 4s linear infinite; */
+}
+/* @-webkit-keyframes changehovertree{0%{-webkit-transform:rotate(0)} 50%{-webkit-transform:rotate(180deg)} 100%{-webkit-transform:rotate(360deg)}} */
+/* @keyframes changehovertree{0%{transform:rotate(0)}  50%{transform:rotate(180deg)} 100%{transform:rotate(360deg)}} */
+
+.section .interest {
+    top: -65px;
+    right: 155px;
+    transform:rotate(13deg);
+    -ms-transform:rotate(13deg); /* Internet Explorer */
+    -moz-transform:rotate(13deg); /* Firefox */
+    -webkit-transform:rotate(13deg); /* Safari 和 Chrome */
+    -o-transform:rotate(13deg); /* Opera */
+}
+.section ul>li {
+    padding-left: 76px;
+    background:url(jt.png) top left no-repeat;
+    line-height: 24px;
+    margin-bottom: 1rem;
+}
+.section .plan {
+    top: -65px;
+    left: -46px;
+    transform:rotate(354deg);
+    -ms-transform:rotate(354deg); /* Internet Explorer */
+    -moz-transform:rotate(354deg); /* Firefox */
+    -webkit-transform:rotate(354deg); /* Safari 和 Chrome */
+    -o-transform:rotate(354deg); /* Opera */
+}
+
+.footer {
+  min-height: 30vh;
+  position: relative;
+}
+.bj {
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bj img {
+    position: absolute;
+    top: 96px;
+    right: -8px;
+    transform:rotate(217deg);
+    -ms-transform:rotate(217deg); /* Internet Explorer */
+    -moz-transform:rotate(217deg); /* Firefox */
+    -webkit-transform:rotate(217deg); /* Safari 和 Chrome */
+    -o-transform:rotate(217deg); /* Opera */
+}
+
+.bj span {
+    display: block;
+    position: absolute;
+    top: 256px;
+    right: 186px;
+    width: 183px;
+    height: 57px;
+    background:url('bt.png') no-repeat;    
+
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow:hidden;
+}
+
+.footer div {
+  width: 300px;
+  color: #b7748d;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
